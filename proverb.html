@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<!--proverb.html: A game where the user reveals letters in a table until they can guess the hidden proverb.-->
+<html lang = "en">
+	<head>
+		<title>Proverb Game</title>
+		<meta charset = "utf-8"/>
+		<script type = "text/javascript" src = "proverb.js"></script>
+		<link rel = "stylesheet" type = "text/css" href = "proverb.css">
+	</head>
+
+	<body>
+	<section>
+		<header>
+			<h1>Wheel of Proverbs!</h1>
+			<p>
+				
+				Press Start to begin. Squares containing letters turn green. Reveal letters by clicking the squares. 
+				You can click half the proverb's letters, 
+				then a guess must be made. Guess correctly to win. Press start  to play again. 
+			</p>
+		</header>
+		<form action = "">
+			<!--<h3>Score: <span id ="score"></span></h3>-->
+			<table>
+				<tr>
+					<td>
+						<input type = "button" value = " " id = "0" onclick = "reveal(0)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "1" onclick = "reveal(1)" />
+					</td>
+					<td>
+						<input type = "button" value = " " id = "2" onclick = "reveal(2)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "3" onclick = "reveal(3)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "4" onclick = "reveal(4)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "5" onclick = "reveal(5)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "6" onclick = "reveal(6)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "7" onclick = "reveal(7)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "8" onclick = "reveal(8)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "9" onclick = "reveal(9)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "10" onclick = "reveal(10)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "11" onclick = "reveal(11)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "12" onclick = "reveal(12)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "13" onclick = "reveal(13)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "14" onclick = "reveal(14)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "15" onclick = "reveal(15)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "16" onclick = "reveal(16)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "17" onclick = "reveal(17)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "18" onclick = "reveal(18)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "19" onclick = "reveal(19)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "20" onclick = "reveal(20)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "21" onclick = "reveal(21)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "22" onclick = "reveal(22)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "23" onclick = "reveal(23)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "24" onclick = "reveal(24)"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type = "button" value = " " id = "25" onclick = "reveal(25)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "26" onclick = "reveal(26)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "27" onclick = "reveal(27)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "28" onclick = "reveal(28)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "29" onclick = "reveal(29)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "30" onclick = "reveal(30)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "31" onclick = "reveal(31)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "32" onclick = "reveal(32)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "33" onclick = "reveal(33)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "34" onclick = "reveal(34)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "35" onclick = "reveal(35)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "36" onclick = "reveal(36)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "37" onclick = "reveal(37)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "38" onclick = "reveal(38)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "39" onclick = "reveal(39)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "40" onclick = "reveal(40)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "41" onclick = "reveal(41)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "42" onclick = "reveal(42)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "43" onclick = "reveal(43)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "44" onclick = "reveal(44)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "45" onclick = "reveal(45)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "46" onclick = "reveal(46)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "47" onclick = "reveal(47)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "48" onclick = "reveal(48)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "49" onclick = "reveal(49)"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type = "button" value = " " id = "50" onclick = "reveal(50)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "51" onclick = "reveal(51)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "52" onclick = "reveal(52)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "53" onclick = "reveal(53)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "54" onclick = "reveal(54)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "55" onclick = "reveal(55)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "56" onclick = "reveal(56)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "57" onclick = "reveal(57)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "58" onclick = "reveal(58)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "59" onclick = "reveal(59)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "60" onclick = "reveal(60)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "61" onclick = "reveal(61)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "62" onclick = "reveal(62)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "63" onclick = "reveal(63)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "64" onclick = "reveal(64)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "65" onclick = "reveal(65)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "66" onclick = "reveal(62)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "67" onclick = "reveal(67)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "68" onclick = "reveal(68)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "69" onclick = "reveal(69)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "70" onclick = "reveal(70)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "71" onclick = "reveal(71)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "72" onclick = "reveal(72)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "73" onclick = "reveal(73)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "74" onclick = "reveal(74)"/>
+					</td>
+				</tr>
+				<tr>	
+					<td>
+						<input type = "button" value = " " id = "75" onclick = "reveal(75)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "76" onclick = "reveal(76)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "77" onclick = "reveal(77)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "78" onclick = "reveal(78)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "79" onclick = "reveal(79)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "80" onclick = "reveal(80)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "81" onclick = "reveal(81)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "82" onclick = "reveal(82)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "83" onclick = "reveal(83)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "84" onclick = "reveal(84)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "85" onclick = "reveal(85)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "86" onclick = "reveal(86)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "87" onclick = "reveal(87)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "88" onclick = "reveal(88)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "89" onclick = "reveal(89)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "90" onclick = "reveal(90)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "91" onclick = "reveal(91)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "92" onclick = "reveal(92)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "93" onclick = "reveal(93)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "94" onclick = "reveal(94)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "95" onclick = "reveal(95)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "96" onclick = "reveal(96)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "97" onclick = "reveal(97)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "98" onclick = "reveal(98)"/>
+					</td>
+					<td>
+						<input type = "button" value = " " id = "99" onclick = "reveal(99)"/>
+					</td>
+				</tr>
+			</table>
+			<input type = "button" value = "Start" id = "give" onclick = "start()"/>
+			<input type = "button" value = "Guess Now" id = "guess" onclick = "attempt()"/>
+			<input type = "button" value = "Give Up" id = "give" onclick = "giveUp()"/>
+		</form>
+	</section>
+
+	</body>
+</html>
